@@ -1,0 +1,39 @@
+/* CSS Reset*/
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 50%;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: inherit;
+}
+
+/* Variables */
+:root{
+  --color-white: white;
+  --color-light-cyan: lightcyan;
+  --color-tomato: tomato;
+  --color-purple: purple;
+  --color-pink: pink;
+  --color-orange: orange;
+  --color-light-gray: lightslategrey;
+  --color-black: black;
+  --shadow: rgba(0,0,0,.4);
+}
+.app{
+  height: 100vh;
+  width: 100%;
+  background-image: linear_gradient(to bottom right, var(--color-pink),var(--color-purple)),
+  url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
