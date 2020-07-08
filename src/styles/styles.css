@@ -1,7 +1,7 @@
 /* CSS Reset*/
 *,
 *::after,
-*::before{
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,21 +15,21 @@ body {
 }
 
 /* Variables */
-:root{
-  --color-white: white;
-  --color-light-cyan: lightcyan;
+:root {
+  --color-white: white ;
+  --color-light-cyan: #eee;
   --color-tomato: tomato;
-  --color-purple: purple;
-  --color-pink: pink;
+  --color-purple: rgba(88,24,69,.9);
+  --color-pink: rgba(216,14,91,.9);
   --color-orange: orange;
-  --color-light-gray: lightslategrey;
+  --color-light-black: #222;
   --color-black: black;
   --shadow: rgba(0,0,0,.4);
 }
-.app{
+.app {
   height: 100vh;
   width: 100%;
-  background-image: linear_gradient(to bottom right, var(--color-pink),var(--color-purple)),
+  background-image: linear-gradient(to bottom right, var(--color-pink),var(--color-purple)),
   url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
   background-size: cover;
 
