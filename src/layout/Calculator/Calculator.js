@@ -1,6 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-const calculator = () => <main className="calculator"></main>;
+import Screen from './Screen/Screen';
+
+const calculator = () => (
+  <main className="calculator">
+    <Screen />
+  </main>
+);
+
 export default calculator;
 
 // If you want your app to work offline and load faster, you can change
