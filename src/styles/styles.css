@@ -17,7 +17,7 @@ body {
 /* Variables */
 :root {
   --color-white: white ;
-  --color-light-cyan: #eee;
+  --color-light-white: #eee;
   --color-tomato: tomato;
   --color-purple: rgba(88,24,69,.9);
   --color-pink: rgba(216,14,91,.9);
@@ -68,4 +68,22 @@ body {
   white-space: no-wrap;
   color: var(--color-light-white);
   background-color: var(--color-tomato);
+}
+
+.keypad__row {
+  height: 11vh;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+.keypad {
+  height: 55vh;
+  width: 100%;
+  padding: 0 2rem;
+  overflow: hidden;
+  white-space: no-wrap;
+  color: var(--color-light-white);
+  background-color: var(--color-purple);
+
 }
