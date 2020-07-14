@@ -2,7 +2,7 @@ import React from 'react';
 
 const keypadRow = () =>(
   <div className="keypad__row">
-    23
+    row
   </div>
 );
 

@@ -3,8 +3,11 @@ import KeypadRow from './KeypadRow/KeypadRow';
 
 const keypad = () => (
   <section className="keypad">
-    <keypadRow />
-    <keypadRow />
+    <KeypadRow />
+    <KeypadRow />
+    <KeypadRow />
+    <KeypadRow />
+    <KeypadRow />
   </section>
 );
 
