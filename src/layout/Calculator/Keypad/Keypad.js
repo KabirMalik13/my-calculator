@@ -5,9 +5,6 @@ const keypad = () => (
   <section className="keypad">
     <keypadRow />
     <keypadRow />
-    <keypadRow />
-    <keypadRow />
-    <keypadRow />
   </section>
 );
 
