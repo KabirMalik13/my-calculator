@@ -81,10 +81,7 @@ body {
   height: 55vh;
   width: 100%;
   padding: 0 2rem;
-  overflow: hidden;
-  white-space: no-wrap;
-  color: var(--color-light-white);
-  background-color: var(--color-purple);
+
 }
 .btn {
   width: 25%;
@@ -105,4 +102,15 @@ body {
 }
 .btn:active {
   transform: scale(.95);
+}
+.btn--large {
+  width: 50%;
+  color: var(--color-white);
+  background-color: var(--color-tomato);
+  transition: all .2s;
+}
+
+.btn--large:hover {
+  background-color: var(--color-white);
+  color: var(--color-tomato);
 }
