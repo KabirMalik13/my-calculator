@@ -1,7 +1,7 @@
 import React from 'react';
 import KeypadRow from './KeypadRow/KeypadRow';
 import Button from '../../../components/Button/Button';
-
+import LargeButton from '../../../components/Button/LargeButton/LargeButton';
 
 const keypad = () => (
   <section className="keypad">
@@ -36,7 +36,7 @@ const keypad = () => (
     <KeypadRow >    
       <Button>0</Button>
       <Button>.</Button>
-      <Button type="large">=</Button>
+      <LargeButton>=</LargeButton>
     </KeypadRow>
   </section>
 );
