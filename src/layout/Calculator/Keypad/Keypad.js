@@ -7,7 +7,7 @@ const keypad = (props) => (
   <section className="keypad">
     <KeypadRow >
       <Button onButtonPress={props.onButtonPress}>C</Button> 
-      <Button onButtonPress={props.onButtonPress}>&larr;</Button>
+      <Button onButtonPress={props.onButtonPress}>Del</Button>
       <Button onButtonPress={props.onButtonPress}>%</Button>
       <Button onButtonPress={props.onButtonPress}>/</Button>
     </KeypadRow >
